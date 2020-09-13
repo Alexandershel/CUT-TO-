@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> CUT TO: </title>
+        <link rel="stylesheet" href="styles/site.css" />
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <script>
+           function makeGoalsList() 
+            {
+                var ol_node = document.createElement("ol");
+
+                // Goal 1
+                var li_node1 = document.createElement("li");
+                var li_text1 = document.createTextNode("Learn to how to take an inspiration and transform it into a story idea.");
+                li_node1.appendChild(li_text1);
+
+                // Goal 2
+                var li_node2 = document.createElement("li");
+                var li_text2 = document.createTextNode("Convert a simple story idea into a full film treatment/outline.");
+                li_node2.appendChild(li_text2);
+
+                // Goal 3
+                var li_node3 = document.createElement("li");
+                var li_text3 = document.createTextNode("Take that treatment and write a script.");
+                li_node3.appendChild(li_text3);
+
+                // Goal 4
+                var li_node4 = document.createElement("li");
+                var li_text4 = document.createTextNode("Pitch your story effectively.");
+                li_node4.appendChild(li_text4);
+
+                // Append the list items to the ul
+                ol_node.appendChild(li_node1);
+                ol_node.appendChild(li_node2);
+                ol_node.appendChild(li_node3);
+                ol_node.appendChild(li_node4);
+
+                // Place on page & Disable Button
+                var container = document.getElementById("goalslist1");
+                container.appendChild(ol_node);
+                document.getElementById("goalFinished").disabled = true;
+            } 
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1> CUT TO: </h1>
+            <nav> 
+                <ul id="sitenav">
+                    <li class="iamhere">
+                        <a href="index.html"> Home </a>
+                    </li>
+                    <li>
+                        <a href="idea.html"> Idea </a>
+                    </li>
+                    <li>
+                        <a href="treatment.html"> Treatment </a>
+                    </li>
+                    <li>
+                        <a href="script.html"> Script </a>
+                    </li>
+                    <li>
+                        <a href="pitch.html"> Pitch </a>
+                    </li>
+                    <li>
+                        <a href="quiz.html"> Quiz </a>
+                    </li>
+                </ul>
+            </nav>
+            <p>
+               "The secret of becoming a writer is to write, write, and keep on writing." ~Ken MacLeod 
+            </p>
+        </header>
+        <main>
+            <p>
+                This is a website for those who wish to learn the foundations and processes for writing feature-length motion picture screenplays. Topics include concept development, dramatic structure, plot, characters, dialogue writing, the use of visual language, writing in format, and the art of the pitch. To test your knowledge, a short quiz is included. To see what you should know by the end of your journey here, click the button below.
+            </p>
+            <div id="goalslist1">
+                <p>
+                    <button onclick="makeGoalsList();" type="submit" id="goalFinished">Click to see goals</button>
+                </p>
+            </div>
+            <div class="line"></div>
+            <div id="about">
+                <h1> About the Creator: </h1>
+                <img src="images/profile.jpg" class="profile" alt="headshot" />
+                <p>
+                    Shelby Alexander is a rising senior at Comstock High School and the Kalamazoo Area Math and Science Center, and will graduate in June of 2021. She hopes to study computer science and theatre directing/writing in the future. This is in hopes that Shelby will one day innovate the theatre of today. In her free time, Shelby likes to play board games, sing, and design video games with her indie studio, NIO Studios. Shelby made her playwriting debut at the 10th annual Theatre Kalamazoo New PlayFest and her screenwriting debut at Harvard Summer School in her Intermediate Screenwriting class taught by Dr. Susan Steinberg PhD. Shelby has further studied creative/scriptwriting at Kalamazoo Valley Community College under Mr. Isaac Turner, Western Michigan University under Dr. Steve Feffer, National High School Game Academy through Carnegie Mellon University under Miss Kate Busatto, and through Education for the Arts by KRESA under Mr. Judson Gilbert and Mr. Bannon Backhus. Shelby created this website by hand under the instruction of her professor, Mr. David Heitmeyer, and her TA, Mr. Mike Hilborn, for her class held by the Harvard Summer School, Fundamentals of Web Design. Check out more of Shelby Alexander's projects at her personal <a href="https://www.shelby-alexander.com"> website</a>.
+                </p>
+            </div>
+        </main>
+        <footer>
+            <p>
+               All information comes from the teachings of Dr. Susan Steinberg (Filmmaker, Writer, PhD), Robert McKee, Stephen King, John Truby, and John Gardner.
+            </p>
+        </footer>
+    </body>
+</html>
