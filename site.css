@@ -1,0 +1,295 @@
+header h1 
+{
+    font-size: 5rem;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2px;
+    text-align: left;
+    color: #1b376f;
+}
+
+header 
+{
+    float: top;
+    padding-top: 2em;
+    border-bottom: thin solid #1b376f;
+    background-color: #cedaf3;
+    clear: both;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+header p 
+{
+    padding: 0 0 0 1rem;
+    font-family: fantasy;    
+    color: #1b376f;
+}
+
+nav 
+{
+    font-weight: normal;
+}
+
+h1
+{
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 25pt;
+    color: #1b376f;
+    line-height: 5pt;
+}
+
+main 
+{
+    padding: 12rem 2rem;
+    clear: both;    
+}
+
+
+main h1
+{
+    font-size: 24pt;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: monospace;
+    color: black;
+}
+
+main p
+{
+    font-size: 14pt;
+}
+
+strong
+{
+    font-weight: bold;
+}
+
+body
+{
+    background-color: #99b3e6;
+}
+
+form p
+{
+    font-weight: bold;
+}
+
+footer 
+{
+    float: bottom;
+    margin-top: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-top: thin solid #1b376f;
+    background-color: #cedaf3;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+footer p
+{
+    font-size: 15pt;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 2px;
+    text-align: left;
+}
+
+.line
+{
+    border-top: thick solid black;
+}
+
+.profile
+{
+    padding-right: 1em;
+    float: left;
+    width: 140px;
+    height: 238px;
+}
+
+#about p
+{
+    font-size: 14pt;
+    font-weight: lighter;
+    font-family: monospace;
+}
+
+.treatment1
+{
+    float: left;    
+    width: 270px;
+    height: 165px;
+}
+
+.treatment2
+{
+    float: right;    
+    width: 390px;
+    height: 560px;
+}
+
+.bird
+{
+    float: right;    
+    width: 100px;
+    height: 100px;
+}
+
+.mercedes
+{
+    float: right;    
+    width: 110px;
+    height: 160px;
+}
+
+.construction
+{
+    float: left;
+    width: 155px;
+    height: 155px;
+}
+
+.constructionText
+{
+    flex-wrap: wrap;
+    margin-left: 3px;
+    font-size: 37pt;
+    font-family: monospace;
+}
+
+/* Site Links
+   ========================================================================== */
+
+a:link 
+{
+    color: #1b376f;
+    text-decoration: underline;
+}
+
+a:visited 
+{
+    color: #7c1b6f;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+a:hover 
+{
+    background-color: black;
+    color: #ffffff;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+a:active 
+{
+    background-color: black;
+    color: #ffffff;
+    text-decoration: none;
+    font-style: normal;
+}
+
+/* Site Navigation
+   ========================================================================== */
+#sitenav {
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+#sitenav ul {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#sitenav ul {
+    padding: 0;
+}
+
+#sitenav li {
+    list-style: none;
+    padding: 0;
+}
+
+#sitenav > li {
+    width: 20em;
+    max-width: 20em;
+    text-align: center;
+    flex: 1 1 20em;
+    padding: 0.25em;
+}
+
+#sitenav li {
+    width: 20em;
+}
+
+#sitenav a {
+    display: block;
+}
+
+#sitenav ul li {
+    text-align: left;
+    padding: 0.25em;
+}
+
+#sitenav li ul {
+    position: absolute;
+    left: -999em;
+}
+
+#sitenav li:hover ul {
+    left: auto;
+    z-index: 2000;
+}
+
+
+#sitenav a,
+#sitenav a:link,
+#sitenav a:visited,
+#sitenav a:active,
+#sitenav a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#sitenav a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#sitenav .iamhere a,
+#sitenav .iamhere a:link,
+#sitenav .iamhere a:visited,
+#sitenav .iamhere a:active,
+#sitenav .iamhere a:hover {
+    color: #ffffff;
+    background-color: #000000;
+    border-bottom: 2px solid #ffffff;
+    cursor: default;
+}
+
+#sitenav .iamhere ul a,
+#sitenav .iamhere ul a:link,
+#sitenav .iamhere ul a:visited,
+#sitenav .iamhere ul a:active,
+#sitenav .iamhere ul a:hover {
+    border-bottom-style: none;
+    cursor: default;
+}
